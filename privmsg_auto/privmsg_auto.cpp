@@ -69,6 +69,7 @@ public:
 
 		return CONTINUE;
 	}
+};
 
 template<> void TModInfo<CPrivmsgAuto>(CModInfo& Info) {
 	Info.SetWikiPage("privmsg_auto");
